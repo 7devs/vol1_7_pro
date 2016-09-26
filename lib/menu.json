@@ -10,7 +10,8 @@
                 },
                 {
                     "name": "scan",
-                    "type": "pic_sysphoto"
+                    "type": "pic_sysphoto",
+                    "key": "picSysPhoto"
                 }
             ]
         },
