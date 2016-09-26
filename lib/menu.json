@@ -11,7 +11,12 @@
                 {
                     "name": "拍个照",
                     "type": "pic_sysphoto",
-                    "key": "picSysPhoto"
+                    "key": "sysphoto"
+                },
+                {
+                    "name": "扫个码",
+                    "type": "scancode_push",
+                    "key": "scancode"
                 }
             ]
         },
