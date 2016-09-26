@@ -7,6 +7,10 @@
                     "name": "子菜单",
                     "type": "click",
                     "key": "menu1"
+                },
+                {
+                    "name": "scan",
+                    "type": "pic_sysphoto"
                 }
             ]
         },
