@@ -9,7 +9,7 @@
                     "key": "menu1"
                 },
                 {
-                    "name": "scan",
+                    "name": "拍个照",
                     "type": "pic_sysphoto",
                     "key": "picSysPhoto"
                 }
