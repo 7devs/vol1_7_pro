@@ -27,8 +27,18 @@
         },
         {
             "name": "更多...",
-            "type": "view",
-            "url": "http://wechatdev.yokeneng.com/"
+            "sub_button": [
+                {
+                    "name": "页面1",
+                    "type": "view",
+                    "url": "http://wechatdev.yokeneng.com/8017/pages/one"
+                },
+                {
+                    "name": "页面2",
+                    "type": "view",
+                    "url": "http://wechatdev.yokeneng.com/8017/pages/two"
+                }
+            ]
         }
     ]
 }
