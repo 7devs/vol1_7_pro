@@ -18,10 +18,15 @@ app.set('views', path.join(__dirname, 'lib/views'));
 app.set('view engine', 'ejs');
 
 // 静态文件目录
-app.use(express.static(path.join(__dirname, 'static'), {
-    index: false,
-    maxAge: '7 days'
-}));
+app.use(
+    express.static(
+        path.join(__dirname, 'static'),
+        {
+            index: false,
+            maxAge: '7 days'
+        }
+    )
+);
 
 // 初始化微信 API 功能包
 wechat(conf.wechat);
